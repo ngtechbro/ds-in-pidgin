@@ -49,7 +49,7 @@ void initStack(ArrayStack *stack) {
 void visitUrl(ArrayStack *stack, char *url) {
   if(stack->size == stack->capacity ) {
     stack->capacity *= 2;
-    stack->urls = (char **) realloc(stack->urls, stack->capacity * sizeof(int));
+    stack->urls = (char **) realloc(stack->urls, stack->capacity * sizeof(char));
     
     if(stack->urls == NULL) {
       printf("Memory reallocation no gree work\n");
