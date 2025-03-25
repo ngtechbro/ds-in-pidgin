@@ -13,7 +13,7 @@
  * Queue just dey like stack, but stack dey follow the LIFO principle while queue dey follow the FIFO principle.
  *
  * Operations:
- * - Push(to add data): O(1)
+ * - Push(to add data): O(n) - If you use doubly linked list, na constant time complexity O(1)
  * - Pop(to komot data): O(1)
  * - Peek(to get the top data): O(1)
  *

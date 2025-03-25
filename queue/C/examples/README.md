@@ -27,4 +27,4 @@ One example use case go use array implementation of queue, and the other go use 
 - Example 2 go demonstrates how to use linked list take implement queue.
 - Each example dey well-commented and easy to run.
 
-This structure go help una understand how to apply stack inside real-world matters. 🚀
+This structure go help una understand how to apply queues inside real-world matters. 🚀

@@ -14,7 +14,7 @@
  *
  * Operations:
  * - Push(to add data): O(1)
- * - Pop(to komot data): O(1)
+ * - Pop(to komot data): O(n)
  * - Peek(to get the top data): O(1)
  *
  * Author: NULL
